@@ -6,7 +6,7 @@
 
     <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
-        <arg name="world_name" value="worlds/ocean_waves.world"/>
+        <arg name="world_name" value="worlds/dice.world"/>
         <arg name="paused" value="$(arg paused)"/>
         <arg name="use_sim_time" value="true"/>
         <arg name="gui" value="$(arg gui)"/>
@@ -16,6 +16,19 @@
     </include>
 
     <include file="$(find uuv_assistants)/launch/publish_world_ned_frame.launch"/>
+
+    <!-- Add the RexROV vehicle to the simulation (namespace: rexrov) -->
+    <include file="$(find uuv_descriptions)/launch/upload_rexrov.launch">
+        <arg name="x" default="10"/>
+        <arg name="y" default="-30"/>
+        <arg name="z" default="-38"/>
+        <arg name="yaw" default="135"/>
+    </include>
+
+    <include file="$(find uuv_control_cascaded_pid)/launch/velocity_control.launch">
+        <arg name="uuv_name" value="rexrov"/>
+        <arg name="model_name" value="rexrov"/>
+    </include>
 
     <node name="publish_world_models"
         pkg="uuv_assistants"

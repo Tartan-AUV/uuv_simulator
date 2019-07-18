@@ -61,21 +61,72 @@
           </script>
         </material>
       </visual>
-
-      <visual name="bouy">
-        <pose> -30 -25 -50 0 0 0</pose>
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+      <!--  -->
+     <visual name="jiangshi">
+        <pose> -39 -44 -42 1.5707 0 1.5707 </pose>
         <geometry>
-          <mesh><uri>model://ocean/buoy_N.dae</uri><scale>1 1 1</scale></mesh>
+          <mesh><uri>model://robosub_2019/jiangshiTex.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
-      <collision name="bouy">
-        <pose> -30 -25 -50 0 0 0</pose>
+      <collision name="jiangshi">
+        <pose> -39 -44 -42 1.5707 0 1.5707 </pose>
         <geometry>
-          <mesh><uri>model://ocean/buoy_N.dae</uri><scale>1 1 1</scale></mesh>
+          <mesh><uri>model://robosub_2019/jiangshiTex.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
 
+     <visual name="vetalas">
+        <pose> -40 -38 -42 1.5707 0 6.2831 </pose>
+        <geometry>
+          <mesh><uri>model://robosub_2019/vetalasTex.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </visual>
+
+      <collision name="vetalas">
+        <pose> -40 -38 -42 1.5707 0 6.2831 </pose>
+        <geometry>
+          <mesh><uri>model://robosub_2019/vetalasTex.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </collision>
+
+     <visual name="draugr">
+        <pose> -40 -37 -42 1.5707 0 4.1888 </pose>
+        <geometry>
+          <mesh><uri>model://robosub_2019/draugrTex.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </visual>
+
+      <collision name="draugr">
+        <pose> -40 -37 -42 1.5707 0 4.1888 </pose>
+        <geometry>
+          <mesh><uri>model://robosub_2019/draugrTex.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </collision>
+
+     <visual name="aswang">
+        <pose> -39 -37 -42 1.5707 0 2.0944 </pose>
+        <geometry>
+          <mesh><uri>model://robosub_2019/aswangTex.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </visual>
+
+      <collision name="aswang">
+        <pose> -39 -37 -42 1.5707 0 2.0944 </pose>
+        <geometry>
+          <mesh><uri>model://robosub_2019/aswangTex.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </collision>
+
+      <!--  -->
+      <!--  -->
       <visual name="bottom">
         <pose>0 0 -70.0 0 0 0</pose>
         <geometry>

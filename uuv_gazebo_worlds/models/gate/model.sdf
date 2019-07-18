@@ -62,17 +62,17 @@
         </material>
       </visual>
 
-      <visual name="bouy">
-        <pose> -30 -25 -50 0 0 0</pose>
+      <visual name="gate">
+        <pose> -28 -32 -50 0 0 1.57</pose>
         <geometry>
-          <mesh><uri>model://ocean/buoy_N.dae</uri><scale>1 1 1</scale></mesh>
+          <mesh><uri>model://gate/gate.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
-      <collision name="bouy">
-        <pose> -30 -25 -50 0 0 0</pose>
+      <collision name="gate">
+        <pose> -28 -32 -50 0 0 1.57</pose>
         <geometry>
-          <mesh><uri>model://ocean/buoy_N.dae</uri><scale>1 1 1</scale></mesh>
+          <mesh><uri>model://gate/gate.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
 
