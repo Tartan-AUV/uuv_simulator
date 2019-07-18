@@ -69,7 +69,7 @@
       <specular>0 0 0 1</specular>
       <direction>-0.3 -0.3 -1</direction>
       <cast_shadows>true</cast_shadows>
-    </light>
+      </light> 
 
     <light type="directional" name="sun_diffuse_3">
       <pose>-150 -130 50 0 0 0</pose>
@@ -153,6 +153,165 @@
       <cast_shadows>true</cast_shadows>
     </light>
 
+    <light type="directional" name="sun_diffuse_13">
+      <pose>-200 -200 100 0 0 0</pose>
+      <diffuse>0.6 0.6 0.6 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_14">
+      <pose>-100 50 200 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_15">
+      <pose>-150 -130 50 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0.5 0.5 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_16">
+      <pose>-150 -130 50 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0.5 0.5 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_17">
+      <pose>-200 -200 100 0 0 0</pose>
+      <diffuse>0.6 0.6 0.6 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_18">
+      <pose>-100 50 200 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_19">
+      <pose>-150 -130 50 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0.5 0.5 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_20">
+      <pose>-150 -130 50 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0.5 0.5 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_21">
+      <pose>-200 -200 100 0 0 0</pose>
+      <diffuse>0.6 0.6 0.6 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_22">
+      <pose>-100 50 200 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_23">
+      <pose>-150 -130 50 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0.5 0.5 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_24">
+      <pose>-150 -130 50 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0.5 0.5 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_25">
+      <pose>-200 -200 100 0 0 0</pose>
+      <diffuse>0.6 0.6 0.6 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_26">
+      <pose>-100 50 200 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_27">
+      <pose>-150 -130 50 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0.5 0.5 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_28">
+      <pose>-150 -130 50 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0.5 0.5 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_29">
+      <pose>-200 -200 100 0 0 0</pose>
+      <diffuse>0.6 0.6 0.6 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_30">
+      <pose>-100 50 200 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0 0 0 1</specular>
+      <direction>-0.3 -0.3 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_31">
+      <pose>-150 -130 50 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0.5 0.5 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
+
+    <light type="directional" name="sun_diffuse_32">
+      <pose>-150 -130 50 0 0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0.5 0.5 -1</direction>
+      <cast_shadows>true</cast_shadows>
+    </light>
 
     <!-- Seabed terrain around Munkholmen model -->
     <include>
