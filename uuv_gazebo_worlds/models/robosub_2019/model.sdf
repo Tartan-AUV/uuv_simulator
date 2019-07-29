@@ -39,7 +39,7 @@
         </geometry>
         <material>
           <script>
-            <uri>file://Media/materials/scripts/sand.material</uri>
+            <uri>file://Media/materials/scripts/transdec_floor.material</uri>
             <name>UUVSimulator/SandAndStones</name>
           </script>
         </material>
@@ -70,60 +70,74 @@
       <!--  -->
       <!--  -->
      <visual name="jiangshi">
-        <pose> -39 -44 -12 1.5707 0 1.5707 </pose>
+        <pose> -33 -37 -45 1.5707 0 0 </pose>
         <geometry>
           <mesh><uri>model://robosub_2019/jiangshiTex.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
       <collision name="jiangshi">
-        <pose> -39 -44 -12 1.5707 0 1.5707 </pose>
+        <pose> -33-37 -45 1.5707 0 0 </pose>
         <geometry>
           <mesh><uri>model://robosub_2019/jiangshiTex.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
 
      <visual name="vetalas">
-        <pose> -41 -37 -12 1.5707 0 6.2831 </pose>
+        <pose> -41 -37 -45 1.5707 0 6.2831 </pose>
         <geometry>
           <mesh><uri>model://robosub_2019/vetalasTex.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
       <collision name="vetalas">
-        <pose> -41 -37 -12 1.5707 0 6.2831 </pose>
+        <pose> -41 -37 -45 1.5707 0 6.2831 </pose>
         <geometry>
           <mesh><uri>model://robosub_2019/vetalasTex.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
 
      <visual name="draugr">
-        <pose> -40 -35.3 -12 1.5707 0 4.1888 </pose>
+        <pose> -40 -35.3 -45 1.5707 0 4.1888 </pose>
         <geometry>
           <mesh><uri>model://robosub_2019/draugrTex.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
       <collision name="draugr">
-        <pose> -40 -35.3 -12 1.5707 0 4.1888 </pose>
+        <pose> -40 -35.3 -45 1.5707 0 4.1888 </pose>
         <geometry>
           <mesh><uri>model://robosub_2019/draugrTex.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
 
      <visual name="aswang">
-        <pose> -39 -37 -12 1.5707 0 2.0944 </pose>
+        <pose> -39 -37 -45 1.5707 0 2.0944 </pose>
         <geometry>
           <mesh><uri>model://robosub_2019/aswangTex.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </visual>
 
       <collision name="aswang">
-        <pose> -39 -37 -12 1.5707 0 2.0944 </pose>
+        <pose> -39 -37 -45 1.5707 0 2.0944 </pose>
         <geometry>
           <mesh><uri>model://robosub_2019/aswangTex.dae</uri><scale>1 1 1</scale></mesh>
         </geometry>
       </collision>
+
+     <!-- <visual name="path">
+        <pose> -30 -30 -45 1.5707 0 2.0944 </pose>
+        <geometry>
+          <mesh><uri>model://robosub_2019/path.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </visual>
+
+      <collision name="path">
+        <pose> -30 -30 -45 1.5707 0 2.0944 </pose>
+        <geometry>
+          <mesh><uri>model://robosub_2019/path.dae</uri><scale>1 1 1</scale></mesh>
+        </geometry>
+      </collision> -->
 
       <!--  -->
       <!--  -->
